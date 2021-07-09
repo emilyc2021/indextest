@@ -17274,7 +17274,7 @@ body {
 }
 
 .bg-img-cover {
-  background-image: url(./img/hotpot.jpg);
+  background-image: url(../img/hotpot.jpg);
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
