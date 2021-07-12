@@ -31,14 +31,15 @@
         <div id="layoutDefault_content">
             <main>
                 <!-- 導覽列 -->
+                <!-- navbar-expand-lg在992px以下就出現漢堡式選單 -->
                 <nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
                     <div class="container">
                         <!--左邊LOGO -->
                         <a class="navbar-brand text-logo" href="index.html"><img src="./img/logo.svg" width="30"
-                                height="30" alt="Logo">Mass Food!</img></a><button class="navbar-toggler" type="button"
-                            data-toggle="collapse" data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false"
-                            aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                                height="30" alt="Logo">Mass Food!</img></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
 
                         <!-- 各專區 -->
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -63,6 +64,7 @@
                     <div class="page-header-content">
                         <div class="container">
                             <div class="row justify-content-center">
+                                <!--  -->
                                 <div class="col-xl-8 col-lg-10 ">
                                     <h1 class="page-header-title mb-1">今天想來點....</h1>
                                     <h3 class="page-header-text mb-3">Take a break，美食是生命裡最好的慰藉。
@@ -108,6 +110,7 @@
                         </div>
                         <!-- TODO:分類區 value mapping DB FoodType -->
                         <div class="row justify-content-center">
+                            <!-- ≥1200px:4格一排  ≥992px:3格一排  ≥768px:2格一排-->
                             <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
                                 <a class="card lift" href="#!"><img class="card-img-top" src="./img/01brunch.jpg"
                                         alt="..." />
@@ -196,6 +199,7 @@
                         <!-- TODO:熱門餐廳抓DB資料(訂單多or評分高) -->
                         <!-- DB 抓圖 餐廳名稱 評分 地區  -->
                         <div class="row">
+                            <!-- ≥992px:3格一排 -->
                             <div class="col-lg-4 mb-5 mb-lg-0">
                                 <a class="card lift" href="#!"><img class="card-img-top" src="./img/food1.jpg"
                                         alt="..." />
